@@ -6,11 +6,11 @@ Refer to this paper for more details <link to paper>
 Please cite this work if you use it: <Add citation>
 
 ## Explanation of concept
-The code has four main parts:
-1) Simulation of people walking around a built environment
+The code has four main part:
+1) Simulation of people walking around built environment
 2) Social distancing metric 
 3) Risk of exposure metric
-4) Heatmap representation of 2 and 3 in the built environment
+4) Heatmap representation
 
 ### 1) Simulation of people walking around built environment
 User inputs the floor plan of the built environment. User can remove walls/obstacles or block off certain areas of the built environment.
@@ -39,8 +39,8 @@ where,
 The risk of exposure metric quantifies the risk of an individual to be exposed to COVID-19. It takes into account details such as person's age, mask wearing, susceptibility 
 due to underlying conditions, rate of ventilation in the built environment, half life of the virus in environment, etc.
 
-### 4) Heatmap representation of 2 and 3 in the built environment
-The risk of exposure in the environment is visualized in the form of a dynamic heatmap. This helps with planning of setup of space and number of people
+### 4) Heatmap representation
+The risk of exposure in the environment is visualized in the form of a dynamic heatmap as shown below <add GIF>. This ehlps with planning of setup of space and number of people
   allowed inside at a time.
   
   
@@ -60,4 +60,3 @@ Running **simulation.py** starts the interactive program. User input is necessar
 
 
 simulation.py calls the functions it requires from the scripts above.
-
